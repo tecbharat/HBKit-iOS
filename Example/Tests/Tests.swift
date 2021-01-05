@@ -1,5 +1,4 @@
 import XCTest
-import HBKit-iOS
 
 class Tests: XCTestCase {
     
