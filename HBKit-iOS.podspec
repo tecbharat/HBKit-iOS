@@ -21,35 +21,32 @@ Pod::Spec.new do |s|
 'This pod is used for adding happy being app functionlity to other app from its tab bar'
                        DESC
 
-  s.homepage         = 'https://github.com/Madhuri Gupta/HBKit-iOS'
+  s.homepage         = 'https://github.com/tecbharat/HBKit-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Madhuri Gupta' => 'tec.bharat@gmail.com' }
-  s.source           = { :git => 'https://github.com/Madhuri Gupta/HBKit-iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tecbharat/HBKit-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'HBKit-iOS/Classes/**/*.{swift,h,m}'
+  s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
-  s.platform = {
-      "iOS": "11.0"
-  }
-  s.resource_bundles = {
-    'HBKit-iOS' => ['HBKit-iOS/Assets/*.png']
-  }
+#  s.resource_bundles = {
+#    'HBKit-iOS' => ['HBKit-iOS/Assets/*.png']
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.dependency 'MBProgressHUD', '~> 1.1.0'
-  s.dependency 'TPKeyboardAvoiding'
-  s.dependency 'SDWebImage', '~> 5.0'
-  s.dependency 'Charts'
-  s.dependency 'DropDown'
-  s.dependency 'Firebase/Analytics'
-  s.dependency 'AppsFlyerFramework'
-  s.dependency 'GradientLoadingBar'
+#  s.dependency 'MBProgressHUD', '~> 1.1.0'
+#  s.dependency 'TPKeyboardAvoiding'
+#  s.dependency 'SDWebImage', '~> 5.0'
+#  s.dependency 'Charts'
+#  s.dependency 'DropDown'
+#  s.dependency 'Firebase/Analytics'
+#  s.dependency 'AppsFlyerFramework'
+#  s.dependency 'GradientLoadingBar'
    
 end
