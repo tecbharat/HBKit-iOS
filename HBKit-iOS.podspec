@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
+  s.static_framework = true
 
   s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
@@ -40,13 +41,13 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-#  s.dependency 'MBProgressHUD', '~> 1.1.0'
-#  s.dependency 'TPKeyboardAvoiding'
-#  s.dependency 'SDWebImage', '~> 5.0'
-#  s.dependency 'Charts'
-#  s.dependency 'DropDown'
-#  s.dependency 'Firebase/Analytics'
-#  s.dependency 'AppsFlyerFramework'
-#  s.dependency 'GradientLoadingBar'
+  s.dependency 'MBProgressHUD', '~> 1.1.0'
+  s.dependency 'TPKeyboardAvoiding'
+  s.dependency 'SDWebImage', '~> 5.0'
+  s.dependency 'Charts'
+  s.dependency 'DropDown'
+  s.dependency 'Firebase/Analytics'
+  s.dependency 'AppsFlyerFramework'
+  s.dependency 'GradientLoadingBar'
    
 end

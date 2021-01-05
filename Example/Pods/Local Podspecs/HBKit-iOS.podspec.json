@@ -1,6 +1,6 @@
 {
   "name": "HBKit-iOS",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Happy Being functionlity support in HBKit-iOS.",
   "description": "'This pod is used for adding happy being app functionlity to other app from its tab bar'",
   "homepage": "https://github.com/tecbharat/HBKit-iOS",
@@ -13,12 +13,39 @@
   },
   "source": {
     "git": "https://github.com/tecbharat/HBKit-iOS.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "11.0"
   },
+  "static_framework": true,
   "source_files": "Source/**/*.swift",
   "swift_versions": "5.0",
+  "dependencies": {
+    "MBProgressHUD": [
+      "~> 1.1.0"
+    ],
+    "TPKeyboardAvoiding": [
+
+    ],
+    "SDWebImage": [
+      "~> 5.0"
+    ],
+    "Charts": [
+
+    ],
+    "DropDown": [
+
+    ],
+    "Firebase/Analytics": [
+
+    ],
+    "AppsFlyerFramework": [
+
+    ],
+    "GradientLoadingBar": [
+
+    ]
+  },
   "swift_version": "5.0"
 }
