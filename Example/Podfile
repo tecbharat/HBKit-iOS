@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HBKit-iOS_Example' do
+  pod 'HBKit-iOS', :path => '../'
+
+  target 'HBKit-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
