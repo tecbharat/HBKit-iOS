@@ -1,0 +1,16 @@
+PODS:
+  - HBKit-iOS (0.1.0)
+
+DEPENDENCIES:
+  - HBKit-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  HBKit-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBKit-iOS: 4d3dacd0541b1ea7876d828615d127d85be949bd
+
+PODFILE CHECKSUM: 3f235397b46e94429be49c07cb4bf23fa58a6d70
+
+COCOAPODS: 1.8.4

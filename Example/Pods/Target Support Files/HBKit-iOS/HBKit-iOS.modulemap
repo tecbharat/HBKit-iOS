@@ -1,0 +1,6 @@
+framework module HBKit_iOS {
+  umbrella header "HBKit-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

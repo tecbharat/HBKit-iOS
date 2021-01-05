@@ -1,0 +1,6 @@
+framework module Pods_HBKit_iOS_Example {
+  umbrella header "Pods-HBKit-iOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
