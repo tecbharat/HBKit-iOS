@@ -1,10 +1,6 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## AppsFlyerFramework
-
-Copyright 2018 AppsFlyer Ltd. All rights reserved.
-
 ## Charts
 
 Apache License

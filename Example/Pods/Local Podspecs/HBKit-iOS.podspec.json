@@ -18,7 +18,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "static_framework": true,
   "source_files": "Source/**/*.swift",
   "swift_versions": "5.0",
   "dependencies": {
@@ -38,9 +37,6 @@
 
     ],
     "Firebase/Analytics": [
-
-    ],
-    "AppsFlyerFramework": [
 
     ],
     "GradientLoadingBar": [
