@@ -1,6 +1,6 @@
 {
   "name": "HBKit-iOS",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "Happy Being functionlity support in HBKit-iOS.",
   "description": "'This pod is used for adding happy being app functionlity to other app from its tab bar'",
   "homepage": "https://github.com/tecbharat/HBKit-iOS",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tecbharat/HBKit-iOS.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
