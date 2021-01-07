@@ -16,7 +16,7 @@
     "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "11.0"
+    "ios": "9.0"
   },
   "static_framework": true,
   "source_files": "Source/**/*.swift",

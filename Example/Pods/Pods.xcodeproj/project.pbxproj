@@ -5085,6 +5085,40 @@
 			};
 			name = Release;
 		};
+		2DAE15DCB2804C6D35D53783078A91F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07A95CF01A68B5C5743F2121E442BCA /* HBKit-iOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBKit-iOS/HBKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBKit-iOS/HBKit-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/HBKit-iOS/HBKit-iOS.modulemap";
+				PRODUCT_MODULE_NAME = HBKit_iOS;
+				PRODUCT_NAME = HBKit_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2F9B3449DE22CD5C325DD5A544BB28DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCEAD6C547EBDEBE287CD3CCD4671AFA /* FirebaseCoreDiagnostics.xcconfig */;
@@ -5306,40 +5340,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		678C0DEC11604177653BBB9CDFF724F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E07A95CF01A68B5C5743F2121E442BCA /* HBKit-iOS.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HBKit-iOS/HBKit-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBKit-iOS/HBKit-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/HBKit-iOS/HBKit-iOS.modulemap";
-				PRODUCT_MODULE_NAME = HBKit_iOS;
-				PRODUCT_NAME = HBKit_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -5604,6 +5604,39 @@
 				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
 				PRODUCT_MODULE_NAME = DropDown;
 				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		999088A3BD0DDBC8A3C24054004323FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07A95CF01A68B5C5743F2121E442BCA /* HBKit-iOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBKit-iOS/HBKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBKit-iOS/HBKit-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/HBKit-iOS/HBKit-iOS.modulemap";
+				PRODUCT_MODULE_NAME = HBKit_iOS;
+				PRODUCT_NAME = HBKit_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -6097,41 +6130,6 @@
 			};
 			name = Release;
 		};
-		E438E359D38BB470CF8B25F9FD1FACB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E07A95CF01A68B5C5743F2121E442BCA /* HBKit-iOS.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HBKit-iOS/HBKit-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBKit-iOS/HBKit-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/HBKit-iOS/HBKit-iOS.modulemap";
-				PRODUCT_MODULE_NAME = HBKit_iOS;
-				PRODUCT_NAME = HBKit_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E8F162B5D3B3A43EB3D1E51A1EACDF0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB3028CBCB2A3249F3047BADDD111967 /* MBProgressHUD.xcconfig */;
@@ -6325,8 +6323,8 @@
 		65AF1E01F15D4078277FF879D7BFCD5C /* Build configuration list for PBXNativeTarget "HBKit-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				678C0DEC11604177653BBB9CDFF724F8 /* Debug */,
-				E438E359D38BB470CF8B25F9FD1FACB5 /* Release */,
+				999088A3BD0DDBC8A3C24054004323FA /* Debug */,
+				2DAE15DCB2804C6D35D53783078A91F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
